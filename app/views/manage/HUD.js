@@ -35,7 +35,6 @@ const template = data => `
     <div class="hud-economy" data-tip="Economy"></div>
   </div>
   <div class="hud-cash"></div>
-  <div class="hud-active-products"></div>
 </div>
 <div class="hud-center">
   <div class="hud-center-board"></div>
@@ -51,6 +50,7 @@ const template = data => `
 </div>
 <div class="hud-challenges">
 </div>
+  <div class="hud-active-products"></div>
 `
 
 function hudTaskTemplate(task) {
